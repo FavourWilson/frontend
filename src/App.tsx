@@ -26,7 +26,7 @@ const getProvider = () => {
   return new ethers.JsonRpcProvider(rpc, { name: "arbitrum-sepolia", chainId: 421614 });
 };
 
-const BACKEND_URL = "http://localhost:4000";
+const BACKEND_URL = "https://backend-1kuk.onrender.com";
 const VAULT_ADDRESS = import.meta.env.VITE_VAULT_ADDRESS;
 const USDX_ADDRESS = import.meta.env.VITE_USDX_ADDRESS;
 const VAULT_ABI = vaultabi;
